@@ -102,24 +102,24 @@ public class ZipcodeTest {
     driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Please enter a ZIP code, or an address, city and state.'])[1]/following::button[1]")).click();
    } 
    
-     @Test
-    public void testChase3() throws Exception {
-    driver.get("https://locator.chase.com/?locale=en_US");
+   //  @Test
+   // public void testChase3() throws Exception {
+    //driver.get("https://locator.chase.com/?locale=en_US");
     // driver.findElement(By.linkText("ATM & branch")).click();
-    driver.findElement(By.id("q")).click();
-    driver.findElement(By.id("q")).clear();
-    driver.findElement(By.id("q")).sendKeys(zipCode2);
-    driver.findElement(By.id("q")).sendKeys(Keys.RETURN);
+    //driver.findElement(By.id("q")).click();
+    //driver.findElement(By.id("q")).clear();
+    //driver.findElement(By.id("q")).sendKeys(zipCode2);
+    //driver.findElement(By.id("q")).sendKeys(Keys.RETURN);
 
-   }
+   //}
     
-   @Test
-   public void testChase4() throws Exception {
-    driver.get("https://locator.chase.com/?locale=en_US");
-    driver.findElement(By.id("q")).click();
-    driver.findElement(By.id("q")).clear();
-    driver.findElement(By.id("q")).sendKeys(location2);
-    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Please enter a ZIP code, or an address, city and state.'])[1]/following::button[1]")).click();
-   } 
+   //@Test
+   //public void testChase4() throws Exception {
+    //driver.get("https://locator.chase.com/?locale=en_US");
+    //driver.findElement(By.id("q")).click();
+    //driver.findElement(By.id("q")).clear();
+    //driver.findElement(By.id("q")).sendKeys(location2);
+    //driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Please enter a ZIP code, or an address, city and state.'])[1]/following::button[1]")).click();
+  // } 
 
 }
