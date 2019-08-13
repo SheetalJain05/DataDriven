@@ -1,0 +1,8 @@
+#surefire
+#Tue Aug 13 12:46:11 CDT 2019
+maven.ext.class.path=C\:\\Program Files\\NetBeans 8.2\\java\\maven-nblib\\netbeans-eventspy.jar
+user.dir=C\:\\Users\\Sheetal\\Documents\\NetBeansProjects\\chase
+file.encoding=UTF-8
+localRepository=C\:\\Users\\Sheetal\\.m2\\repository
+basedir=C\:\\Users\\Sheetal\\Documents\\NetBeansProjects\\chase
+test=test.com.ZipcodeTest
